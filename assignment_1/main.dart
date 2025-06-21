@@ -7,4 +7,10 @@ void main(){
   int speed = int.parse(stdin.readLineSync()!);
   Car car = Car(speed);
   car.move();
+
+  //using setter
+  print('\nusing setter method set the speed');
+  car.setSpeed=50;
+  car.move();
+
 }
