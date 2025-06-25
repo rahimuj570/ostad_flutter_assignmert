@@ -35,7 +35,7 @@ void main(){
     ..sort((a, b) => b.value.compareTo(a.value));
 
   for(var avgMark in sortedEntries){
-    print('\'${avgMark.key}\': ${avgMark.value}');
+    print('"${avgMark.key}": ${avgMark.value}');
   }
 
 }
